@@ -1,0 +1,176 @@
+/* Paste into WordPress: Appearance > Editor > Styles > Additional CSS (location varies by theme). */
+.bt-site{--ink:#18372f;--ink-2:#2f4c42;--cream:#f8f7f0;--paper:#f1f2e9;--line:#cbd0c5;--sage:#dce5d1;--accent:#cfe0a3;--dark:#203b35;--muted:#54665e;--font-sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;--font-serif:Iowan Old Style,Baskerville,"Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif}
+.bt-site *, .bt-site *::before, .bt-site *::after{box-sizing:border-box}
+.bt-site a{color:inherit}
+.bt-site a{-webkit-tap-highlight-color:transparent}
+.bt-site :focus-visible{outline:3px solid #a1bf53;outline-offset:4px}
+.bt-site{font:400 16px/1.65 var(--font-sans);color:var(--ink);background:var(--cream);overflow:hidden}
+.bt-site h1, .bt-site h2, .bt-site h3, .bt-site p{margin:0}
+.bt-site a{text-decoration:none}
+.bt-site .container{max-width:1232px;width:calc(100% - 96px);margin-inline:auto}
+.bt-site .site-header{position:relative;z-index:3;background:var(--cream);border-bottom:1px solid #dce0d4}
+.bt-site .header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:91px}
+.bt-site .brand{display:inline-flex;align-items:center;gap:12px;white-space:nowrap}
+.bt-site .brand-symbol{width:37px;height:37px;flex-shrink:0}
+.bt-site .brand-text, .bt-site .footer-brand>span{font-family:var(--font-serif);font-size:27px;letter-spacing:-1.2px;font-weight:700;line-height:1.1}
+.bt-site .brand-period{color:#77975c}
+.bt-site .nav{display:flex;align-items:center;gap:35px;font-size:13px;font-weight:620;letter-spacing:.01em}
+.bt-site .nav a:not(.nav-contact){transition:color .2s}
+.bt-site .nav a:hover{color:#527750}
+.bt-site .nav-contact{border:1px solid var(--ink);padding:11px 19px;display:inline-flex;align-items:center;gap:24px;transition:background .2s,color .2s}
+.bt-site .nav-contact:hover{background:var(--ink);color:#fff}
+.bt-site .hero{padding:65px 0 82px}
+.bt-site .hero-grid{display:grid;grid-template-columns:1.03fr .97fr;gap:64px;align-items:center}
+.bt-site .hero-copy{padding:30px 0 42px}
+.bt-site .eyebrow, .bt-site .section-index, .bt-site .project-kicker, .bt-site .card-number, .bt-site .project-count, .bt-site .side-note, .bt-site .art-caption, .bt-site .tag-group, .bt-site .project-bottom{font-size:11px;font-weight:730;letter-spacing:.11em;text-transform:uppercase}
+.bt-site .eyebrow{display:flex;align-items:center;gap:11px;flex-wrap:wrap;color:#436353;line-height:1.8;margin-bottom:37px!important}
+.bt-site .eyebrow-line{display:inline-block;width:26px;height:1px;background:#52734d}
+.bt-site .eyebrow-dot{font-size:17px;font-weight:400}
+.bt-site h1{font-family:var(--font-serif);font-size:clamp(52px,5.3vw,83px);font-weight:500;letter-spacing:-.055em;line-height:1.035;max-width:690px}
+.bt-site h1 em, .bt-site h2 em{font-weight:400;color:#68845f}
+.bt-site .hero-lead{font-size:19px;line-height:1.6;letter-spacing:-.025em;max-width:570px;margin-top:30px!important;color:#29473f}
+.bt-site .hero-note{font-size:14px;line-height:1.8;color:var(--muted);max-width:550px;margin-top:17px!important}
+.bt-site .hero-actions{display:flex;align-items:center;gap:30px;margin-top:34px;flex-wrap:wrap}
+.bt-site .button{display:inline-flex;align-items:center;justify-content:space-between;gap:34px;padding:15px 20px;font-weight:650;font-size:13px;line-height:1.5;transition:background .2s,transform .2s}
+.bt-site .button:hover{transform:translateY(-2px)}
+.bt-site .button-dark{background:var(--ink);color:#fff}
+.bt-site .button-dark:hover{background:#365c4b}
+.bt-site .text-link{font-weight:650;font-size:13px;border-bottom:1px solid #6c846e;padding-bottom:5px}
+.bt-site .text-link:hover{color:#527750}
+.bt-site .hero-art{align-self:stretch;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.bt-site .system-illustration{width:100%;aspect-ratio:560/550;display:block}
+.bt-site .art-caption{display:flex;justify-content:space-between;gap:10px;color:var(--muted);letter-spacing:.08em;margin-top:10px;font-size:9px}
+.bt-site .intro-band{background:#e5e9dd;border-top:1px solid #d4dacd;border-bottom:1px solid #d4dacd}
+.bt-site .intro-inner{padding:42px 0 50px;display:grid;grid-template-columns:235px 1fr;gap:42px;align-items:start}
+.bt-site .section-index{color:#4b6856;white-space:nowrap;line-height:1.8}
+.bt-site .intro-inner p{font-family:var(--font-serif);font-size:clamp(25px,2.8vw,36px);line-height:1.35;letter-spacing:-.026em;max-width:870px}
+.bt-site .intro-inner p em{color:#61845e}
+.bt-site .section{padding:108px 0}
+.bt-site .section-topline{display:flex;align-items:center;gap:26px;margin-bottom:39px}
+.bt-site .tiny-rule{display:inline-block;flex:1;height:1px;background:var(--line)}
+.bt-site .side-note{color:#718276;white-space:nowrap;font-size:10px}
+.bt-site .section-heading-grid{display:grid;grid-template-columns:1fr 350px;align-items:end;gap:44px;margin-bottom:51px}
+.bt-site h2{font-family:var(--font-serif);font-weight:500;font-size:clamp(42px,4.5vw,65px);letter-spacing:-.05em;line-height:1.08}
+.bt-site .section-heading-grid>p{color:var(--muted);font-size:15px;line-height:1.9;max-width:370px;padding-bottom:5px}
+.bt-site .services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.bt-site .service-card{border:1px solid #d3dacc;background:#f3f5ec;padding:29px 27px 30px;min-height:374px;display:flex;flex-direction:column}
+.bt-site .card-symbol{width:48px;height:48px;background:#dde7cf;display:flex;align-items:center;justify-content:center;font-family:var(--font-serif);font-size:26px;color:#456d51;margin-bottom:32px}
+.bt-site .card-number{font-size:10px;color:#6e8875;margin-bottom:13px}
+.bt-site .service-card h3{font-family:var(--font-serif);font-size:29px;line-height:1.18;letter-spacing:-.035em;font-weight:500;margin-bottom:15px}
+.bt-site .service-card>p{font-size:14px;line-height:1.77;color:#52675e}
+.bt-site .tag-group{margin-top:auto;padding-top:29px;display:flex;gap:8px;flex-wrap:wrap;font-size:9px;font-weight:650;letter-spacing:.02em;text-transform:none}
+.bt-site .tag-group span{border:1px solid #cbd7c8;padding:4px 8px;color:#526e5d}
+.bt-site .experience{background:#f0f1e8;border-top:1px solid #e0e3d8}
+.bt-site .experience-head{margin-bottom:50px}
+.bt-site .project-list{border-top:1px solid #bfc8ba}
+.bt-site .project-row{display:grid;grid-template-columns:270px 1fr;gap:36px;padding:34px 0;border-bottom:1px solid #bfc8ba}
+.bt-site .project-identity{display:flex;flex-direction:column;gap:24px;align-items:flex-start}
+.bt-site .project-count{color:#6e8875;font-size:10px}
+.bt-site .project-icon{width:112px;height:112px;color:#597c61;background:#e1e9d9;border-radius:50%;display:flex;align-items:center;justify-content:center}
+.bt-site .project-icon svg{width:85px;height:85px}
+.bt-site .project-kicker{font-size:10px;color:#6c896f;margin-bottom:12px;display:block}
+.bt-site .project-details h3{font-family:var(--font-serif);font-size:clamp(30px,3vw,43px);font-weight:500;letter-spacing:-.035em;line-height:1.22;max-width:650px;margin-bottom:15px}
+.bt-site .project-details p{font-size:15px;color:#53665d;line-height:1.84;max-width:770px}
+.bt-site .project-bottom{display:flex;gap:11px;flex-wrap:wrap;margin-top:25px;font-size:10px;letter-spacing:.025em;text-transform:none;color:#426c53}
+.bt-site .project-bottom span{border-left:2px solid #9eb78b;padding-left:10px}
+.bt-site .experience-note{font-size:12px;color:#66766c;max-width:800px;line-height:1.7;margin-top:18px!important}
+.bt-site .issues{background:#e4e9dc;padding:91px 0}
+.bt-site .issues-inner{display:grid;grid-template-columns:1fr 1fr;gap:90px}
+.bt-site .issues h2{margin-top:22px}
+.bt-site .issue-list{border-top:1px solid #b8c7b6}
+.bt-site .issue-list>div{font-family:var(--font-serif);font-size:22px;letter-spacing:-.015em;line-height:1.3;display:flex;gap:20px;align-items:baseline;border-bottom:1px solid #b8c7b6;padding:15px 0}
+.bt-site .issue-list span{font:700 10px var(--font-sans);letter-spacing:.06em;color:#68856e;min-width:20px}
+.bt-site .commitment{background:var(--dark);color:#f2f5e9;padding:106px 0 112px}
+.bt-site .commitment-grid{display:grid;grid-template-columns:1fr 1fr;gap:92px}
+.bt-site .light-index{color:#b4d19d}
+.bt-site .commitment h2{margin-top:25px;font-size:clamp(42px,4.1vw,59px);max-width:560px}
+.bt-site .commitment h2 em{color:#c5dca9}
+.bt-site .commitment-lead>p{margin-top:26px!important;max-width:475px;color:#c9d5c9;font-size:15px;line-height:1.85}
+.bt-site .principles{border-top:1px solid #647c6e}
+.bt-site .principle{border-bottom:1px solid #647c6e;padding:23px 0;display:grid;grid-template-columns:48px 1fr;gap:14px}
+.bt-site .principle>span{font-size:11px;font-weight:750;color:#bdd5a7;padding-top:5px}
+.bt-site .principle h3{font-family:var(--font-serif);font-size:25px;font-weight:500;letter-spacing:-.025em;line-height:1.3;margin-bottom:9px}
+.bt-site .principle p{font-size:13px;line-height:1.75;color:#bfcec2}
+.bt-site .connect{padding:114px 0 130px}
+.bt-site .connect-grid{display:grid;grid-template-columns:1fr 1fr;gap:90px}
+.bt-site .connect h2{margin-top:25px}
+.bt-site .connect-copy{padding-top:28px}
+.bt-site .connect-copy p{font-size:16px;color:#3e5a4f;line-height:1.85;margin-bottom:15px!important}
+.bt-site .connect-copy .contact-method{font-size:14px;border-top:1px solid #ccd5c7;padding-top:18px;margin-top:19px!important;color:#65796b}
+.bt-site .site-footer{background:#e7ebdf;border-top:1px solid #cbd4c9;padding:35px 0}
+.bt-site .footer-inner{display:flex;align-items:end;justify-content:space-between;gap:20px}
+.bt-site .footer-brand{display:flex;flex-direction:column;gap:7px}
+.bt-site .footer-brand>span{font-size:23px}
+.bt-site .footer-brand small, .bt-site .footer-note, .bt-site .back-top{font-size:11px;letter-spacing:.02em;color:#607167}
+.bt-site .footer-note{display:flex;flex-direction:column;gap:5px}
+.bt-site .back-top{border-bottom:1px solid #94a998;padding-bottom:3px;white-space:nowrap}
+@media (max-width:1050px){.bt-site .container{width:calc(100% - 64px)}
+.bt-site .hero-grid{gap:35px}
+.bt-site .hero{padding:50px 0 62px}
+.bt-site .nav{gap:20px}
+.bt-site .hero-copy{padding:15px 0}
+.bt-site .intro-inner{grid-template-columns:185px 1fr}
+.bt-site .section-heading-grid{grid-template-columns:1fr 300px}
+.bt-site .issues-inner, .bt-site .commitment-grid, .bt-site .connect-grid{gap:48px}
+.bt-site .project-row{grid-template-columns:200px 1fr}}
+@media (max-width:760px){.bt-site .container{width:calc(100% - 38px)}
+.bt-site .header-inner{min-height:72px;flex-wrap:wrap;padding:15px 0;gap:13px}
+.bt-site .brand-symbol{width:32px;height:32px}
+.bt-site .brand-text{font-size:24px}
+.bt-site .nav{width:100%;gap:20px;justify-content:space-between;font-size:12px;padding-top:5px}
+.bt-site .nav-contact{padding:7px 10px;gap:6px}
+.bt-site .hero{padding:40px 0 55px}
+.bt-site .hero-grid{grid-template-columns:1fr;gap:30px}
+.bt-site .hero-copy{padding:0}
+.bt-site .eyebrow{margin-bottom:25px!important;font-size:10px}
+.bt-site h1{font-size:clamp(45px,10.5vw,66px)}
+.bt-site .hero-lead{font-size:17px;margin-top:22px!important}
+.bt-site .hero-note{font-size:13px}
+.bt-site .hero-actions{gap:20px}
+.bt-site .hero-art{max-width:580px;width:100%;margin:auto}
+.bt-site .art-caption{font-size:8px}
+.bt-site .intro-inner{grid-template-columns:1fr;gap:15px;padding:35px 0}
+.bt-site .intro-inner p{font-size:27px}
+.bt-site .section{padding:70px 0}
+.bt-site .section-topline{gap:14px;margin-bottom:24px}
+.bt-site .side-note{display:none}
+.bt-site .section-heading-grid, .bt-site .issues-inner, .bt-site .commitment-grid, .bt-site .connect-grid{grid-template-columns:1fr;gap:20px}
+.bt-site .section-heading-grid{margin-bottom:30px}
+.bt-site h2{font-size:clamp(38px,8.8vw,56px)}
+.bt-site .section-heading-grid>p{max-width:650px;font-size:14px}
+.bt-site .services-grid{grid-template-columns:1fr;gap:12px}
+.bt-site .service-card{min-height:unset;padding:25px}
+.bt-site .card-symbol{margin-bottom:20px}
+.bt-site .tag-group{margin-top:18px;padding-top:0}
+.bt-site .project-row{grid-template-columns:1fr;gap:15px;padding:28px 0}
+.bt-site .project-identity{flex-direction:row;align-items:center;justify-content:space-between}
+.bt-site .project-icon{width:70px;height:70px}
+.bt-site .project-icon svg{width:58px;height:58px}
+.bt-site .project-details h3{font-size:32px}
+.bt-site .project-details p{font-size:14px}
+.bt-site .issues{padding:65px 0}
+.bt-site .issue-list{margin-top:16px}
+.bt-site .issue-list>div{font-size:19px}
+.bt-site .commitment{padding:73px 0}
+.bt-site .commitment-lead>p{margin-top:19px!important}
+.bt-site .principles{margin-top:18px}
+.bt-site .connect-copy{padding-top:5px}
+.bt-site .footer-inner{flex-wrap:wrap;align-items:start}
+.bt-site .footer-note{order:3;width:100%;flex-direction:row;gap:15px;flex-wrap:wrap}
+.bt-site .back-top{margin-left:auto}}
+@media (max-width:420px){.bt-site .nav{gap:10px;font-size:11px}
+.bt-site .brand-text{font-size:22px}
+.bt-site .hero-actions{align-items:flex-start;flex-direction:column}
+.bt-site .button{width:100%}
+.bt-site .eyebrow-dot{display:none}
+.bt-site .art-caption span:last-child{max-width:50%;text-align:right}
+.bt-site .intro-inner p{font-size:25px}}
+@media (prefers-reduced-motion:reduce){.bt-site *, .bt-site *::before, .bt-site *::after{transition:none!important}}
+
+/* Artwork substitute: avoids inline SVG restrictions in some WordPress editors. */
+.bt-site .wp-art-standin{background:linear-gradient(155deg,#e5e9db 0%,#b2c6a7 52%,#335c4d 100%);min-height:390px;display:flex;align-items:center;padding:35px;}
+.bt-site .wp-art-standin-inner{border:1px solid #edf2df70;padding:30px;width:100%;min-height:300px;display:flex;flex-direction:column;justify-content:center;gap:25px;color:#193c30;}
+.bt-site .wp-art-standin span,.bt-site .wp-art-standin small{font:750 11px/1.5 var(--font-sans);letter-spacing:.12em;text-transform:uppercase;}
+.bt-site .wp-art-standin strong{font:400 clamp(30px,3vw,50px)/1.17 var(--font-serif);letter-spacing:-.035em;}
+.bt-site .wp-art-standin small{color:#f5f6ec;}
+.bt-site .project-icon span{font:600 34px var(--font-serif);}
